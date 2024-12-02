@@ -1,0 +1,120 @@
+/* About Us Section */
+.aboutUs {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aboutUs h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Navigation Options */
+.navOptions {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.navOptions button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #666666;
+  cursor: pointer;
+  padding: 10px 0;
+  position: relative;
+}
+
+.navOptions button:hover {
+  color: #ff6f00;
+}
+
+.activeOption {
+  color: #ff6f00;
+  font-weight: bold;
+  border-bottom: 3px solid #ff6f00;
+}
+
+/* FAQ Section */
+.faqSection {
+  text-align: left;
+  margin-top: 30px;
+}
+
+/* Questions and Steps Row */
+.questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.question {
+  flex: 1 1 45%;
+  margin-bottom: 25px;
+}
+
+.question h3 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question p {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+}
+
+/* Steps Section */
+.steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1 1 45%;
+}
+
+.step {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.step img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.4;
+}
+
+/* About Text */
+.aboutText {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.8;
+  margin-top: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

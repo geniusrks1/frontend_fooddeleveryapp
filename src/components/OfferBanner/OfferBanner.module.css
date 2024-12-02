@@ -1,0 +1,60 @@
+.banner {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .banner p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .banner span {
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Spacing between Location and Cart */
+  }
+  
+  /* Location Section */
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .location span {
+    color: #333;
+  }
+  
+  .icon {
+    color: #333;
+    font-size: 18px; /* Icon size */
+  }
+  
+  .dropdown {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* My Cart Section */
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .cart span {
+    color: #333;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,19 @@
+.reviewsSection {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .reviewCard {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .reviewCard p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  

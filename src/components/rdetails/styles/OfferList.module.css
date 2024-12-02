@@ -1,0 +1,87 @@
+.offersSection {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    display: flex;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid container */
+  .offersGrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 20px;
+    /* justify-content: center; */
+  }
+  
+  /* Card styles */
+  .card {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .discountBadge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff3e00;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .cardDetails {
+    text-align: left;
+  }
+  
+  .restaurantName {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .dishName {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .addButton {
+    width: 30px;
+    height: 30px;
+    background-color: #ff3e00;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
