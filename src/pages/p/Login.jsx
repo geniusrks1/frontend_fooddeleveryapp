@@ -25,6 +25,7 @@ const Login = () => {
     <>
       <div className={styles.loginContainer}>
         <div className={styles.loginForm}>
+          <img src="./images/logo.png" alt="logo"/>
           <h2>Welcome Back 👋</h2>
           <p>
             Today is a new day. It's your day. You shape it. Sign in to start

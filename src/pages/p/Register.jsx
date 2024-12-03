@@ -1,7 +1,8 @@
-// src/pages/p/Register.jsx
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import styles from "./styles/Register.module.css";
+import Footer from "../../components/Footer/Footer";
 
 const Register = () => {
   const [name, setName] = useState("");
@@ -35,40 +36,53 @@ const Register = () => {
   };
 
   return (
-    <div className="register">
-      <form onSubmit={handleSubmit}>
-        <h2>Register</h2>
-        <input
-          type="text"
-          placeholder="Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <input
-          type="tel"
-          placeholder="Phone Number"
-          value={phoneNumber}
-          onChange={(e) => setPhoneNumber(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        <button type="submit">Register</button>
-      </form>
+    <>
+    <div className={styles.registerContainer}>
+      <div className={styles.registerForm}>
+      <img src="./images/logo.png" alt="logo"/>
+        <h2>Join Us 👋</h2>
+        <p>Create an account to start your journey with us.</p>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            value={phoneNumber}
+            onChange={(e) => setPhoneNumber(e.target.value)}
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+          <button type="submit">Register</button>
+        </form>
+        <p>
+          Already have an account? <a href="/">Sign in</a>
+        </p>
+      </div>
+      <div className={styles.imageSection}>
+        <img src="./images/Art.png" alt="Welcome" />
+      </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

@@ -1,4 +1,4 @@
-.loginContainer {
+.registerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,27 +7,24 @@
     background-color: #f9f9f9;
   }
   
-  .loginForm {
+  .registerForm {
     width: 35%;
-   
     padding: 40px;
     background-color: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: left;  
     position: relative;
-    
   }
   
-  .loginForm h2 {
+  .registerForm h2 {
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
     color: #333;
-   
   }
   
-  .loginForm input {
+  .registerForm input {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -36,7 +33,7 @@
     font-size: 16px;
   }
   
-  .loginForm button {
+  .registerForm button {
     width: 100%;
     padding: 12px;
     font-size: 16px;
@@ -48,7 +45,7 @@
     transition: background-color 0.3s;
   }
   
-  .loginForm button:hover {
+  .registerForm button:hover {
     background-color: #e68a00;
   }
   
@@ -63,10 +60,11 @@
     border-radius: 8px;
   }
   
-  p a{
+  p a {
     color: #e68a00;
   }
-  .loginForm img {
+  
+  .registerForm img {
     position: absolute;
     top: -40px; 
     left: 50%; 
