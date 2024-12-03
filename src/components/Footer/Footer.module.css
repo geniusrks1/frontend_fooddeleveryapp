@@ -22,9 +22,9 @@
 }
 
 .storeLinks img {
-  width: 120px;
+  width: 240px;
   margin-right: 1rem;
-  margin-bottom: 1rem;
+ 
 }
 
 .companyInfo {
@@ -85,7 +85,7 @@
 }
 
 .link {
-  color: #007bff;
+  
   text-decoration: none;
 }
 
@@ -110,4 +110,10 @@
 
 .footerLinks li {
   font-size: 0.9rem;
+  color: #FFFFFF;
+}
+
+.footerBottom{
+  background-color: #03081F;
+  color: #FFFFFF;
 }

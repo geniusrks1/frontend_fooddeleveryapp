@@ -16,7 +16,7 @@ const Footer = () => {
           />
           <div className={styles.storeLinks}>
             <img src="./images/appstore.png" alt="App Store" />
-            <img src="./images/playstore.png" alt="Google Play" />
+          
           </div>
           <p className={styles.companyInfo}>
             Company # 490039-445, Registered with House of Companies.
